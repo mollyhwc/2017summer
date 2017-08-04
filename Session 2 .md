@@ -15,7 +15,7 @@
 
   ![2.4](B:\pangpang\AP\2017暑假Java课外辅导\image\2.4.PNG)
 
-下面列出了Java保留字。这些保留字不能用于常量、变量、和任何标识符的名称。
+下面列出了Java保留字。这些保留字不能用于常量、变量、和任何标识符的名称。（中国 美国）
 
 | 关键字          | 描述                                       |
 | ------------ | ---------------------------------------- |
@@ -72,7 +72,7 @@
 
 ```java
 public class HelloWorld {
-    public static voiD main(String[] args){
+    public static void main(String[] args){
 		System.out.println("hello imooc");
 	}
 }
@@ -93,8 +93,6 @@ public class Demo{
 }
 ```
 
-
-
 1. Letters, digits,  underscore(_) and $，不能包含 @、%、空格等其它特殊字符
 
 2. May not begin with a digit  `123name`错的！
@@ -107,7 +105,6 @@ public class Demo{
 
    命名规范十分十分重要！！！！
 
-5. Reserved word
 
 练习：
 
@@ -171,6 +168,7 @@ System.out.println(a%b);
 - 默认值是 0；
 - byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；
 - 例子：byte a = 100，byte b = -50。
+- 补码反码http://blog.csdn.net/u011080472/article/details/51280919
 
 **short：**
 

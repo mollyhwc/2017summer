@@ -1,10 +1,17 @@
 #### Session 1 :welcome and chapter 1
 
+计算机语言做什么？学过什么计算机语言吗？
+
+Java和汇编对比
+
+面向对象的语言
+
 * Guideline
 
   *  Spend some time and practice more after class
   *  Feedback to me, if you feel uncomfortable
-  *  Don't trust me, sometimes…  Always listen to your faithful friend, IDE!
+  *  Don't trust me, sometimes…  Always listen to your f![img](file:///B:/pangpang/AP/2017%E6%9A%91%E5%81%87Java%E8%AF%BE%E5%A4%96%E8%BE%85%E5%AF%BC/image/1.2.PNG?lastModify=1501826891)
+  *  aithful friend, IDE!
 
 * Let's start!
 
@@ -33,7 +40,7 @@ ABOUT JAVA
 
   * ![1.1](B:\pangpang\AP\2017暑假Java课外辅导\image\1.1.PNG)
 
-在Java的整个体系当中，最基础的部分就是Javase部分，Java的标准版本。me微型版本，ee企业版本。都是从se发展出来的一套规范。
+在Java的整个体系当中，最基础的部分就是Javase部分，Java的标准版本。me微型版本，ee企业版本。都是从se发展出来的一套规范。（方言）
 
 ![1.2](B:\pangpang\AP\2017暑假Java课外辅导\image\1.2.PNG)
 
@@ -47,9 +54,11 @@ JVM 中包含了解释器，跨平台通过jvm实现的。
 
 example：想吃鱼~，去菜市场买了一条鱼， 鱼相当于源文件，这个鱼能吃么？？是吃不了的。用菜刀处理鱼，开肠刮肚，去鱼鳞，去腮，杀鱼过程相当于编译器对源代码进行编译，杀完的鱼类似于生成的字节码文件，杀了的鱼可以直接吃吗？虽然已经被直接杀过了，还是不能吃，这是需要用灶具对于进行红烧清蒸。
 
+一份简历--->中介要求的简历---->各国情况
+
 ![1.3](B:\pangpang\AP\2017暑假Java课外辅导\image\1.3.PNG)
 
-**JDK**  :  JAVA Development kit(Java 开发工具包)
+**JDK**  :  JAVA Development kit(Java 开发工具包)，包括jre,java核心类库还有Java工具。
 
 没有jdk就没法进行Java的开发
 
