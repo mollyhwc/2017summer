@@ -70,6 +70,16 @@ import 包名
 
 **The this keyword**
 
+用类名定义一个变量的时候，定义的只是一个引用，外面可以通过这个引用来访问这个类里面的属性和方法。
+
+那们类里面是够也应该有一个引用来访问自己的属性和方法？
+
+this 对象，它可以在类里面来引用这个类的属性和方法。
+
+```java
+见session5 ThisDemo1.java和ThisDemo2.java
+```
+
 this 代表当前对象
 
 this.属性 代表当前对象的属性
@@ -96,6 +106,9 @@ this.方法 调用当前对象的方法
 
 * **The null reference**：An uninitialized object variable 
   * NullpointerException
+  * 指针，就是java中的对象的引用。比如String s;这个s就是指针。 
+  * 空指针，就是指针的内容为空，比如上面的s,如果令它指向null,就是空指针。
+  * 空指针异常，就是一个指针是空指针，你还要去操作它，既然它指向的是空对象，它就不能使用这个对象的方法。
 
   ```
   见BankAccount test3Null.java

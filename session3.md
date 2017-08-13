@@ -195,27 +195,11 @@ System.out.println(area);
 
   1. **while**
 
-  ```java
-  while ( BooleanExpr )
-  Statement
-  ```
-
-  ```java
-  // Valentine.java - a simple while loop
-  class Valentine {
-  public static void main(String[] args) {
-  int howMuch = 0;
-  while (howMuch++ < 5)
-  System.out.println("I love you.");
-  }
-  }
-  ```
-
-  **what is the problem with the following code?**
+     **what is the problem with the following code?**
 
   ```java
   int count = 13;
-  System.out.println("The multiples of 13 between 1 and 100 are:");
+  //System.out.println("The multiples of 13 between 1 and 100 are:");
   while (count != 100){
    System.out.println(count);
    count = count + 13;
@@ -317,9 +301,7 @@ System.out.println(area);
 
 
 
-**作业**
-
-1.复习所学内容
+练习
 
 2.写一个小程序。判断一个数的位数。例如输入123，则输出 “它是个3位的数！”
 

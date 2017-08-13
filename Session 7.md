@@ -90,4 +90,3 @@ public class Mosqutio extends Insect implements FlyingObject{
 * design , create ,modify a class that ` implements ` an interface
 * explain the difference between the following concepts:
   - an abstract class and an interface
-

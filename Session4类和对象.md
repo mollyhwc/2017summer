@@ -64,16 +64,23 @@ code见session4  Dog.java
 - **成员变量**：
   - 成员变量是定义在**类中，方法体之外**的变量。
   - 这种变量在创建对象的时候实例化。
-  - 成员变量可以被类中方法、构造方法和特定类的语句块访问。
+  - 成员变量可以被类中方法访问。
   - 初始化时系统赋予默认的值。
 
+- **成员变量和局部变量区别：**
+
+  - 作用范围不同：局部变量作用域仅限于定义他的方法。成员变量作用域在整个类的内部可以看见。
+  - 初始值不同：会给成员变量赋一个初始值，而局部变量没有初始值
+  - 在同一个方法中，不允许同名的局部变量。不同方法允许名字相同。
+  - 两类变量同名时，局部变量具有更高优先级。
+
   ```
-  见scope Scope.java 
+  见code Session VariableScope.java
+  读code  ---package scope
   ```
 
-  ​
+  **类变量**：类变量也声明在类中，方法体之外，但必须声明为static类型。
 
-- **类变量**：类变量也声明在类中，方法体之外，但必须声明为static类型。
   - **Comparison between static and non-static :**
     -  When the class is loaded ,member variable is initialized, associated with the class.
     -  A static variable separately divided a storage space, the storage space is shared by all objects of a class.
@@ -83,18 +90,6 @@ code见session4  Dog.java
     ````java
     见session4  static.java 和staticInitial.java
     ````
-
-**成员变量和局部变量区别：**
-
-* 作用范围不同：局部变量作用域仅限于定义他的方法。成员变量作用域在整个类的内部可以看见。
-* 初始值不同：会给成员变量赋一个初始值，而局部变量没有初始值
-* 在同一个方法中，不允许同名的局部变量。不同方法允许名字相同。
-* 两类变量同名时，局部变量具有更高优先级。
-
-```
-见code Session VariableScope.java
-读code  ---package scope
-```
 
 ---
 
@@ -210,3 +205,24 @@ what is the method’s signature？
 见code session4 DogInitial.java
 ```
 
+练习
+
+```java 
+编写Java程序,模拟简单的计算器。 
+定义名为Number的类其中有两个整型数据成员n1和n2应声明为私有。
+编写构造方法，赋予n1和n2初始值
+再为该类定义加addition、减subtration、乘multiplication、除division等公有成员方法分别对两个成员变量执行加减乘除的运算。 
+在main方法中创建Number类的对象调用各个方法并显示计算结果。
+
+```
+
+```
+请定义一个交通工具(Vehicle)的类,其中有: 
+属性:速度(speed)体积(size)等等 
+方法:移动(move())设置速度(setSpeed(int speed))加速speedUp(),减速speedDown()等等. 最后在测试类Vehicle中的main()中实例化一个交通工具对象,并通过方法给它初始化speed,size的值并且通过打印出来。
+另外调用加速减速的方法对速度进行改变
+```
+
+
+
+​	
