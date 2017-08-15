@@ -143,11 +143,11 @@
 
 ​    **valid**
 
-​	`student s =new Student();`
+​	`Student s =new Student();`
 
-​	`student g =new GradStudent();`
+​	`Student g =new GradStudent();`
 
-​	`student u=new UnderGrad();`
+​	`Student u=new UnderGrad();`
 
 - a GraderStudent is-a student; a UnderStudent is-a studet;
 
@@ -167,7 +167,7 @@
 
  `s.getID();`
 
-` h.getID();`
+` u.getID();`
 
 - a student is not necessarily a GradStudent nor an UnderStudent.
 
@@ -252,7 +252,7 @@
 
   `Student u =new UnderGrad()`
 
-  `System.out.println((string)u)`   ClassCastException
+  `System.out.println((String)u)`   ClassCastException
 
   `int x =((Gradstudent)u).getID()`
 
